@@ -12,13 +12,12 @@ Aplikasi untuk mendatakan Setiap Item yang dimiliki
 
 
 
-## EndPoint  Blogs
+## EndPoint  Items
 
 | End Point | HTTP| Description|
 |-------|------------|---------|
-| /api/items | GET | Load view
+|/api/items | GET | Load view
 |/api/items/|POST|..
-|/api/items/:id|GET|..
 |/api/items/:id|PUT|..
 |/api/items/:id|DEL|..
 
@@ -26,18 +25,6 @@ Aplikasi untuk mendatakan Setiap Item yang dimiliki
 
 ```
 cd server
-```
-```
-npm install
-```
-```
-npm start
-```
-
-## How to install Client Side
-
-```
-cd client
 ```
 ```
 npm install
